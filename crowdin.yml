@@ -1,4 +1,0 @@
-files:
-  - source: /**/src/main/resources/fi/post/daas/registers/enrichment/web/
-    translation: >-
-      /**/src/main/resources/fi/post/daas/registers/enrichment/web/%file_name%.%two_letters_code%.%file_extension%
