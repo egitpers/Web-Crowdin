@@ -1,0 +1,26 @@
+#set($title = 'Kiitos, tiedostot vastaanotettu')
+#set($body = 'Tiedostot on otettu onnistuneesti vastaan Boxille. Jos tiedostot edellyttävät Boxin käsittelyä, saat sähköpostitse ilmoituksen kun käsittely on valmis ja tiedostot on lähetetty takaisin sinulle.')
+
+<html>
+<head>
+	<title>$title</title>
+	<meta charset="UTF-8" />
+	<style type="text/css">
+		body {
+			font-family: Arial;
+			width: 980px;
+			margin: auto;
+		}
+	</style>
+</head>
+<body>
+	<h1>$title</h1>
+	<p>$body</p>
+	<br/>
+	<p>
+		Tämä viesti on lähetetty Boxin Kontakti palvelusta<br/>
+		Asiakaspalvelu puh. 061234 1500
+	</p>
+	<a href="http://www.boxi.eu/kontakti">www.boxi.eu/kontakti</a>
+</body>
+</html>
