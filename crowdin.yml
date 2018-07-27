@@ -1,0 +1,5 @@
+files:
+  - source: '**/web/*.*'
+    ignore:
+      - '**/web/*%two_letters_code%.*'
+    translation: /**/web/%file_name%.%two_letters_code%.%file_extension%
